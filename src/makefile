@@ -5,7 +5,7 @@ CFLAGS = -Wall
 #linker flags
 LDFLAGS =
 #object files to build 
-OBJFILES = main.o ./table/table.o
+OBJFILES = main.o ./table/table.o ./input_buffer/input_buffer.o
 #target file to build
 TARGET = db
 
